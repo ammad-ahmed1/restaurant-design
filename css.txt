@@ -1,0 +1,62 @@
+lec-2
+
+- inline css
+- internal css
+- external css
+
+Inline css has the most priority.
+If you are using external or internal css then add inline css, inline css style will work
+If you are using different properties in different css ways, all will work
+If clash comes, inline css will get the importance.
+If important is only used in external css,only that will run. 
+
+lec-3
+
+-Selectors
+
+Helps to target the elements we want to style
+- element selector
+- id selector
+- class selector
+- grouping selector
+
+Element selector will give style to all elements
+i.e 
+
+p{color: red;} 
+
+It will make all paragarphs in project color red
+
+Id selector is used when you want to give style to only one object.
+It can't be used for any other object
+
+Grouping selector means giving style to multiple elements
+
+ie
+
+div, span{
+background-color: red;
+}
+
+lec-5
+
+-Fonts
+
+-Web Safe fonts: Are preinstalled in OS
+-Web fonts: Are not installed already, we install them
+
+-We can stack the fonts
+p{
+ font-family: Sans-serif, Arial, Calibri;  
+}
+Now it will first check Sans-serif, if it is available will use it otherwise
+it will check arial and so on....
+
+-Line height: The spacing between fonts
+
+
+lec 6
+ -Borders and Background
+
+start from lec 8
+

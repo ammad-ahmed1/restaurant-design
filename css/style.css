@@ -1,0 +1,301 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* navbar */
+.navbar {
+  z-index: 997;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: #fff;
+}
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-menu-parent {
+  margin-top: 40px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.nav-menu-child {
+  display: flex;
+  width: 50%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  /* justify-content: space-evenly; */
+  font-size: 0.8em;
+}
+/* hero */
+.hero-parent {
+  background-image: url("../images/hero-bg.jpg.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.hero-child {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.line-one {
+  color: #fff;
+  margin: 10px 0px;
+  font-weight: 200;
+}
+.line-two {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px 0px;
+}
+.line-three {
+  color: #fff;
+  max-width: 500px;
+  margin: 10px 0px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+/* ---about flex--- */
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 120px 0px;
+}
+.left-child {
+  width: 400px;
+}
+.about-heading {
+  text-align: left;
+  font-size: 24px;
+  line-height: 2;
+}
+.about-par {
+  color: rgba(119, 119, 119, 1);
+  font-size: 14px;
+  text-align: left;
+  line-height: 2;
+}
+.right-child {
+  max-width: 100%;
+  height: auto;
+}
+/* ----foods---- */
+.foods {
+  background-color: #f9f9ff;
+  text-align: center;
+  /* margin: 20px 0px; */
+}
+.foods-top-portion {
+  padding: 120px 0px;
+}
+.food-menu {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
+}
+.menu {
+  padding: 50px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  width: 16.6%;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  text-align: center;
+}
+.foods-grid {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px 20px;
+}
+/* food card */
+.food-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.card-header-right {
+  color: red;
+}
+.card-body {
+  text-align: left;
+  color: #777777;
+  font-size: 14px;
+  margin: 20px 0px;
+}
+/* -----reservation------ */
+.reservation-parent {
+  background-image: url("../images/reservation-bg.jpg.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+/* .overlay-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17, 22, 24, 0.75);
+} */
+.reservation-flex {
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+.res-flex-left {
+  color: #fff;
+  max-width: 40%;
+}
+.res-flex-left-heading {
+  font-size: 24px;
+}
+.res-flex-left-par {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+.res-flex-right {
+  max-width: 50%;
+}
+.res-form {
+  background-color: #fff;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.input-tag {
+  width: 300px;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+}
+/* ---another food section ---- */
+.foods-imgs-grid {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 20px 20px;
+}
+/* ------------review------------ */
+.review-section {
+  background-image: url("../images/review-bg.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-content-body {
+  width: 30%;
+}
+.person {
+  display: flex;
+  justify-content: center;
+}
+
+.review-img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+}
+.name {
+  text-align: center;
+  margin-top: 20px;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 5px;
+  font-size: 12px;
+}
+.checked {
+  color: #ffc000;
+}
+.review-par {
+  margin-top: 30px;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  text-align: center;
+  font-style: italic;
+}
+.slide-no {
+  margin-top: 50px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.slide {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
+/* ----blog card---- */
+.blog-img {
+  width: 100%;
+}
+.blog-date-div {
+  display: flex;
+  justify-content: left;
+  margin: 10px 0px;
+}
+
+.blog-date-span {
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #2d2d2d;
+}
+.blog-title-div {
+  text-align: left;
+}
+.blog-par-div {
+  margin: 10px 0px;
+  text-align: left;
+}
+.blog-likes-comments-div {
+  display: flex;
+  justify-content: space-between;
+}
